@@ -1,34 +1,51 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="_default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="_default"  Culture="en-us" UICulture="auto"%>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
         Welcome to System Analysis and Design
-    
-        <div>
+        <br />
+         <br />
+         <br />
 
-            Please chose your language<asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="152px"></asp:DropDownList>
+            
+        <div class="lsidebar">
+
+            Please chose your language<asp:DropDownList ID="language" runat="server" meta:resourceKey="" Height="16px" Width="152px">
+                                          <asp:ListItem Value="ar-sa">Arabic</asp:ListItem>
+                                         <asp:ListItem Value="en-us">English</asp:ListItem>
+                                         <asp:ListItem Value="zn-ch">Chinese</asp:ListItem>
+                                          <asp:ListItem Value="es">Spanish</asp:ListItem>
+                                          
+                                      </asp:DropDownList>
+            <br />
         </div>
+
+         <br />
+         <br />
+         <br />
         <div>
             My name is <asp:TextBox ID="nametbx" runat="server" Height="21px" Width="177px"></asp:TextBox>
             <br />
             <br />
-            I am <asp:RadioButton ID="RadioButton1" runat="server" Text="Male" /><asp:RadioButton ID="RadioButton2" runat="server" Text="Female" />
+            I am <asp:RadioButton ID="RadioButton1" runat="server" Text="Male" />
+                <asp:RadioButton ID="RadioButton2" runat="server" Text="Female" />
 
             <br />
             <br />
-            I plan to graduate on <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            I plan to graduate on <asp:Calendar ID="Calendar" runat="server" Height="192px" Width="674px"></asp:Calendar>
 
             <br />
             <br />
-            When I graduate I hope to earn <asp:TextBox ID="salarytbx" runat="server"></asp:TextBox>
+            When I graduate I hope to earn <asp:TextBox ID="salarytbx" runat="server" Height="16px" Width="421px"></asp:TextBox>
            
              <br />
             <br />
