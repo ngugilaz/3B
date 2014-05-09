@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div id="content">
-       <h1> <asp:Label ID="Label6" runat="server" Text="Welcome to 6K:183"></asp:Label></h1>
+       <h1> <asp:Label ID="Label6" runat="server" meta:resourcekey="Label6" Text="Welcome to 6K:183"></asp:Label></h1>
 
        <h3> <asp:Label ID="Label7" runat="server" Text="Software Design and Development"></asp:Label></h3>
         <br />
