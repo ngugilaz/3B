@@ -117,7 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="bienvenido" xml:space="preserve">
-    <value>spanish</value>
+  <data name="Button1" xml:space="preserve">
+    <value>presentar</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>Mi nombre es</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>estoy</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>Tengo la intención de graduarse a</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>Cuando me gradúe, espero poder ganar</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>Por favor, elija su idioma</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>Bienvenido a 6K: 183</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>Diseño y Desarrollo de Software</value>
+  </data>
+  <data name="RadioButton1" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="RadioButton2" xml:space="preserve">
+    <value>femenino</value>
   </data>
 </root>

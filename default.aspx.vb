@@ -2,34 +2,36 @@
 Imports System.Globalization
 
 
-Partial Class _default
+
+Partial Class _Default
     Inherits System.Web.UI.Page
     Protected Overrides Sub InitializeCulture()
+        Dim language As String = Request("language")
 
-        Dim lang As String = Request("language")
-        If lang IsNot Nothing Or lang <> "" Then
-            Thread.CurrentThread.CurrentUICulture = New CultureInfo(lang)
-            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(lang)
-
+        If language IsNot Nothing Or language <> "" Then
+            Thread.CurrentThread.CurrentUICulture = New CultureInfo(language)
+            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(language)
         End If
-
     End Sub
 
-
     Protected Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
-
+        If RadioButton1.Checked = True Then
+            RadioButton2.Checked = False
+        End If
     End Sub
 
     Protected Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
+        If RadioButton2.Checked = True Then
+            RadioButton1.Checked = False
+        End If
+    End Sub
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
     End Sub
 
-    Protected Sub salarytbx_TextChanged(sender As Object, e As EventArgs) Handles salarytbx.TextChanged
-        Dim salary As Decimal
-        salarytbx.Text = String.Format("{0:c}", salary)
-    End Sub
 
-    Protected Sub sbmButton_TextChanged(sender As Object, e As EventArgs) Handles sbmButton.TextChanged
+    Protected Sub submittb_Click(sender As Object, e As EventArgs) Handles submittb.Click
 
     End Sub
 End Class
