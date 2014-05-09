@@ -15,13 +15,15 @@
           width:180px;
           border:2px solid black;
           height:500px;
-          padding:20px 5px 5px 5px
+          padding:10px;
 }
 
 #rightside {
     float: right;
     width: 450px;
     border: 2px solid black;
-    padding: 20px 5px 5px 35px;
+    padding: 10px ;
     height: 500px;
+}
+#footer { text-align:center;
 }

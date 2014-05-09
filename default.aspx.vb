@@ -9,9 +9,12 @@ Partial Class _Default
         Dim language As String = Request("language")
 
         If language IsNot Nothing Or language <> "" Then
-            Thread.CurrentThread.CurrentUICulture = New CultureInfo(language)
             Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(language)
+            Thread.CurrentThread.CurrentUICulture = New CultureInfo(language)
+
+
         End If
+        MyBase.InitializeCulture()
     End Sub
 
     Protected Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
@@ -27,6 +30,7 @@ Partial Class _Default
     End Sub
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
 
     End Sub
 

@@ -117,34 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Button1" xml:space="preserve">
+  <data name="Button1.Text" xml:space="preserve">
     <value>Submit</value>
   </data>
-  <data name="Label1" xml:space="preserve">
+  <data name="Label1.Text" xml:space="preserve">
     <value>My name is</value>
   </data>
-  <data name="Label2" xml:space="preserve">
+  <data name="Label2.Text" xml:space="preserve">
     <value>I am</value>
   </data>
-  <data name="Label3" xml:space="preserve">
+  <data name="Label3.Text" xml:space="preserve">
     <value>I plan to graduate on</value>
   </data>
-  <data name="Label4" xml:space="preserve">
+  <data name="Label4.Text" xml:space="preserve">
     <value>When I graduate, I hope to earn </value>
   </data>
-  <data name="Label5" xml:space="preserve">
+  <data name="Label5.Text" xml:space="preserve">
     <value>Please choose your language</value>
   </data>
-  <data name="Label6" xml:space="preserve">
+  <data name="Label6.Text" xml:space="preserve">
     <value>Welcome to 6K:183</value>
   </data>
-  <data name="Label7" xml:space="preserve">
+  <data name="Label7.Text" xml:space="preserve">
     <value>Software Design and Development</value>
   </data>
-  <data name="RadioButton1" xml:space="preserve">
+  <data name="RadioButton1.Text" xml:space="preserve">
     <value>Male</value>
   </data>
-  <data name="RadioButton2" xml:space="preserve">
+  <data name="RadioButton2.Text" xml:space="preserve">
     <value>Female</value>
   </data>
 </root>
