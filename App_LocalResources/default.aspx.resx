@@ -123,6 +123,9 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>My name is</value>
   </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Enter your name to proceed</value>
+  </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>I am</value>
   </data>

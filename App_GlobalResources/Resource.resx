@@ -117,37 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>presentar</value>
+  <data name="Footer" xml:space="preserve">
+    <value />
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Mi nombre es</value>
+  <data name="Label11" xml:space="preserve">
+    <value>I hope you have a great day when you graduate on</value>
   </data>
-  <data name="Label14.Text" xml:space="preserve">
-    <value>Introduce tu nombre para proceder</value>
+  <data name="Label13" xml:space="preserve">
+    <value>I wish you well in your career after graduation. I hope you earn</value>
   </data>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>estoy</value>
+  <data name="Label14" xml:space="preserve">
+    <value>Enter your name to proceed</value>
   </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>Tengo la intención de graduarse a</value>
+  <data name="Label15" xml:space="preserve">
+    <value> as a salary in your first job!</value>
   </data>
-  <data name="Label4.Text" xml:space="preserve">
-    <value>Cuando me gradúe, espero poder ganar</value>
+  <data name="Label16" xml:space="preserve">
+    <value>Please visit me on </value>
   </data>
-  <data name="Label5.Text" xml:space="preserve">
-    <value>Por favor, elija su idioma</value>
+  <data name="Label17" xml:space="preserve">
+    <value>Mr.</value>
   </data>
-  <data name="Label6.Text" xml:space="preserve">
-    <value>Bienvenido a 6K: 183</value>
+  <data name="Label8" xml:space="preserve">
+    <value>Hello,</value>
   </data>
-  <data name="Label7.Text" xml:space="preserve">
-    <value>Diseño y Desarrollo de Software</value>
-  </data>
-  <data name="RadioButton1.Text" xml:space="preserve">
-    <value>masculino</value>
-  </data>
-  <data name="RadioButton2.Text" xml:space="preserve">
-    <value>femenino</value>
+  <data name="Label9" xml:space="preserve">
+    <value>Ms.</value>
   </data>
 </root>

@@ -117,37 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>presentar</value>
+  <data name="Label11" xml:space="preserve">
+    <value>我希望你有一个伟大的日子，当你毕业的</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Mi nombre es</value>
+  <data name="Label13" xml:space="preserve">
+    <value>我祝愿你在你的职业生涯，毕业后。我希望你赚</value>
   </data>
-  <data name="Label14.Text" xml:space="preserve">
-    <value>Introduce tu nombre para proceder</value>
+  <data name="Label14" xml:space="preserve">
+    <value>输入你的名字继续进行</value>
   </data>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>estoy</value>
+  <data name="Label15" xml:space="preserve">
+    <value>在你的第一份工作的薪水！</value>
   </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>Tengo la intención de graduarse a</value>
+  <data name="Label16" xml:space="preserve">
+    <value>请访问我的</value>
   </data>
-  <data name="Label4.Text" xml:space="preserve">
-    <value>Cuando me gradúe, espero poder ganar</value>
+  <data name="Label17" xml:space="preserve">
+    <value>先生</value>
   </data>
-  <data name="Label5.Text" xml:space="preserve">
-    <value>Por favor, elija su idioma</value>
+  <data name="Label8" xml:space="preserve">
+    <value>您好，</value>
   </data>
-  <data name="Label6.Text" xml:space="preserve">
-    <value>Bienvenido a 6K: 183</value>
-  </data>
-  <data name="Label7.Text" xml:space="preserve">
-    <value>Diseño y Desarrollo de Software</value>
-  </data>
-  <data name="RadioButton1.Text" xml:space="preserve">
-    <value>masculino</value>
-  </data>
-  <data name="RadioButton2.Text" xml:space="preserve">
-    <value>femenino</value>
+  <data name="Label9" xml:space="preserve">
+    <value>女士</value>
   </data>
 </root>
